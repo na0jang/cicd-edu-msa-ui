@@ -42,6 +42,7 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		<!--
         <repository>
             <id>egovframe2</id>
             <url>http://www.egovframe.go.kr/maven/</url>
@@ -51,7 +52,8 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-        </repository>
+			</repository>
+		-->
 	</repositories>
 
 	<dependencies>
