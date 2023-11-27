@@ -207,23 +207,6 @@
             <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/ojdbc-14.jar</systemPath>
         </dependency>
         -->
-
-
-
-
-
-
-
-
-
-
-	<dependency>
-	     <groupId>jakarta.platform</groupId>
-	     <artifactId>jakarta.jakartaee-api</artifactId>
-	     <version>8.0.0</version>
-	 </dependency>
-
-		
 	</dependencies>
 
 	<build>
