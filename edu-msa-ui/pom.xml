@@ -210,7 +210,7 @@
 	</dependencies>
 
 	<build>
-        <defaultGoal>install</defaultGoal>
+        <defaultGoal>clean install</defaultGoal>
         <directory>${basedir}/target</directory>
         <finalName>${artifactId}-${version}</finalName>
         <pluginManagement>
