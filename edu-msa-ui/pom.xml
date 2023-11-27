@@ -212,13 +212,16 @@
 
 
 
-		
-	<dependency>
-	    <groupId>com.thoughtworks.xstream</groupId>
-	    <artifactId>xstream</artifactId>
-	    <version>1.4.15</version> <!-- Use the latest version -->
-	</dependency>
 
+
+
+
+
+	<dependency>
+	     <groupId>jakarta.platform</groupId>
+	     <artifactId>jakarta.jakartaee-api</artifactId>
+	     <version>8.0.0</version>
+	 </dependency>
 
 		
 	</dependencies>
@@ -232,14 +235,6 @@
             <plugins>
 
 	        <plugin>
-	            <groupId>org.apache.maven.plugins</groupId>
-	            <artifactId>maven-war-plugin</artifactId>
-	            <version>3.2.3</version> <!-- Use the latest version -->
-	            <configuration>
-	                <!-- Your configuration settings -->
-	            </configuration>
-	        </plugin>
-
 
 
 		    
